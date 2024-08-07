@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            margin:0px;
+        }
+        .container{
+            box-sizing: border-box;
+            width: 100%;  
+            display: flex;
+        }
+        .container>*{
+            margin-left: 10px;
+        }
+        .main{
+            box-sizing: border-box;
+            width: 1410px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .list{
+            display: flex;
+            gap: 550px   
+        }
+        .mail{
+            padding-right: 40px;
+            color: black;
+            font-size:20px ;
+            font-weight: bolder;
+        }
+        .food{
+            color: black;
+            font-size:20px ;
+            font-weight: bolder;
+        }
+        .pic1{
+            transition: all 2s;
+        } 
+        img:hover{
+            transform: scale(0.8);
+    
+        }
+        
+         @media screen and (max-width:450px){
+        .container{
+            display: block;
+            width: 100%;
+        }    
+       } 
+       @media screen and (max-width:450px) {
+        .main{
+            width:100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .list{
+            display: flex;
+            gap:70px;  
+        }
+        .mail{
+            padding-right: 10px;
+            font-size:20px ;
+            font-weight: bolder;
+        }
+    
+        }
+       li > a{
+        text-decoration-line: none;
+       }
+       .line{
+        margin-top: 15px;
+        margin-left: 10px;
+       }
+    
+    </style>
+    </head>
+    <body>
+    <div class="main">
+        <div class="line"><i class="fa-solid fa-bars" class="lines"></i></div>
+        <ul type="none" class="list">
+            <li><a class="food" href="#" >My Food</a></li>
+            <li><a  class="mail" href='#'>Mail</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="pic1">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg " width="350px">
+                <div><h2>&emsp13;The Perfect Sandwich, A Real <br>
+                    &emsp;&emsp;&emsp;&emsp;NYC Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent 
+                    <br>&emsp;&emsp;&emsp;&emsp;&emsp13;&emsp;tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div class="pic2">
+            <img src="https://www.w3schools.com/w3images/steak.jpg" width="350px">
+            <div class="t2">
+                <h2>&emsp;&emsp;Let Me Tell You About </br>&emsp;&emsp;&emsp;&emsp;This Steak</h2>
+                <p>&emsp;&emsp;&emsp;Once again, some random text to lorem <br>&emsp;&emsp;&emsp;lorem lorem lorem ipsum text praesent <br>&emsp;&emsp;&emsp;&emsp;&emsp;tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div class="pic3">
+            <img src="https://www.w3schools.com/w3images/cherries.jpg" width="350px">
+            <div class="t3">
+                <h2>&emsp;&emsp;Cherries, interrupted</h2>
+                <p>&emsp;&emsp;&emsp;Lorem ipsum text praesent tincidunt<br>&emsp;&emsp;&emsp;&emsp;&emsp13;&emsp; &emsp;&emsp;ipsum lipsum.<br><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp13;&emsp;What else?
+            </div>
+        </div>
+        <div class="pic4">
+            <img src="https://www.w3schools.com/w3images/wine.jpg" width="350px">
+            <div class="t1">
+                <h2>&emsp;Once Again, Robust Wine<br> &emsp;&emsp; and Vegetable Pasta<br></h2>
+                <p>&emsp;&emsp;&emsp;Lorem ipsum text praesent tincidunt<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ipsum lipsum. </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="pic1">
+            <img src="https://www.w3schools.com/w3images/popsicle.jpg " width="350px">
+                <div><h2>&emsp13;The Perfect Sandwich, A Real <br>
+                    &emsp;&emsp;&emsp;&emsp;NYC Classic</h2>
+                <p>Just some random text, lorem ipsum text praesent 
+                    <br>&emsp;&emsp;&emsp;&emsp;&emsp13;&emsp;tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div class="pic2">
+            <img src="https://www.w3schools.com/w3images/salmon.jpg" width="350px">
+            <div class="t2">
+                <h2>&emsp;&emsp;Let Me Tell You About </br>&emsp;&emsp;&emsp;&emsp;This Steak</h2>
+                <p>&emsp;&emsp;&emsp;Once again, some random text to lorem <br>&emsp;&emsp;&emsp;lorem lorem lorem ipsum text praesent <br>&emsp;&emsp;&emsp;&emsp;&emsp;tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div class="pic3">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" width="350px">
+            <div class="t3">
+                <h2>&emsp;&emsp;Cherries, interrupted</h2>
+                <p>&emsp;&emsp;&emsp;Lorem ipsum text praesent tincidunt<br>&emsp;&emsp;&emsp;&emsp;&emsp13;&emsp; &emsp;&emsp;ipsum lipsum.<br><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp13;&emsp;What else?
+            </div>
+        </div>
+        <div class="pic4">
+            <img src="https://www.w3schools.com/w3images/croissant.jpg" width="350px">
+            <div class="t1">
+                <h2>&emsp;Once Again, Robust Wine<br> &emsp;&emsp; and Vegetable Pasta<br></h2>
+                <p>&emsp;&emsp;&emsp;Lorem ipsum text praesent tincidunt<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; ipsum lipsum. </p>
+            </div>
+        </div>
+    </div>
+    
+   
+</body>
+</html>
